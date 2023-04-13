@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System;
+﻿using System;
 
 namespace SnakeGame
 {
@@ -56,6 +55,7 @@ namespace SnakeGame
         }
         public void Run()
         {
+            Console.WriteLine("Press any key to play game");
             while (!isOver)
             {
                 if (snakeX[0] == foodX && snakeY[0] == foodY)
